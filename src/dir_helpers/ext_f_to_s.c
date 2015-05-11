@@ -10,7 +10,7 @@ BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
 implied.
 */
 #include <limits.h>
-#include <values.h>
+#include <float.h>
 #include "qtypes.h"
 #include "mmap.h"
 #include "auxil.h"

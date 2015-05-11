@@ -3,14 +3,17 @@
 #include <stdio.h>
 #include <stdbool.h>
 #include <unistd.h>
-#include <values.h>
 #include <limits.h>
+#include <float.h>
 #include <stdlib.h>
 #include <string.h>
 #include <stdbool.h>
 #include <ctype.h>
 #include <sys/time.h>
 #include <sys/mman.h>
+#if defined(__APPLE__) && defined(__MACH__)
+#include "../q-base/src/macstuff.h"
+#endif
 #include "constants.h"
 #include "macros.h"
 

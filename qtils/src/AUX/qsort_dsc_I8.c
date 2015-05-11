@@ -38,6 +38,7 @@ implied.
 #include <limits.h>
 #include <stdlib.h>
 #include <string.h>
+#include "../../q-base/src/macstuff.h"
 
 /* Byte-wise swap two items of size SIZE. */
 /*

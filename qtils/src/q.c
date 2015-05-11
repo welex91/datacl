@@ -9,7 +9,11 @@ software distributed under the License is distributed on an "AS IS"
 BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
 implied.
 */
+#if defined(__APPLE__) && defined(__MACH__)
+#define get_nprocs() ( 1 )
+#else
 #include <sys/sysinfo.h>
+#endif
 #include "qtypes.h"
 #include "mmap.h"
 #include "is_tbl.h"

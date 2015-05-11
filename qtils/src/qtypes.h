@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <stdbool.h>
 #include <unistd.h>
-#include <values.h>
+#include <float.h>
 #include <limits.h>
 #include <stdlib.h>
 #include <string.h>

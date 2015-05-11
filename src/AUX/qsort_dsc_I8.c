@@ -39,6 +39,8 @@ implied.
 #include <stdlib.h>
 #include <string.h>
 
+#include "qtypes.h"
+
 /* Byte-wise swap two items of size SIZE. */
 /*
 #define SWAP(a, b, size)			\

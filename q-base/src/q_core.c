@@ -7,7 +7,7 @@
 #include "aux_meta.h"
 #include "is_fld.h"
 #include "is_a_in_b.h"
-// #include "is_A_in_b.h"
+#include "is_ca_in_b.h"
 #include "dir_is_a_in_b.h"
 #include "rename_tbl.h"
 #include "rename_fld.h"

@@ -39,6 +39,8 @@ implied.
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
+
+#include "qtypes.h"
 #define WHEREAMI { fprintf(stderr, "Line %3d of File %s \n", __LINE__, __FILE__); }
 
 #undef VERBOSE

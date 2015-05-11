@@ -9,8 +9,6 @@ software distributed under the License is distributed on an "AS IS"
 BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
 implied.
 */
-#include <values.h>
-#include <limits.h>
 #include "qtypes.h"
 #include "mmap.h"
 #include "dbauxil.h"

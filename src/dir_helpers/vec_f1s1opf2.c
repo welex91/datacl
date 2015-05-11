@@ -101,7 +101,7 @@ implied.
 #include "cmp_ge_and_le_I4.h"
 
 #include "f1opf2_cum.h"
-#include "cmp_eq_scalar_char_string.h"
+
 
 #include "assign_I1.h"
 #include "sort_asc_I8.h"

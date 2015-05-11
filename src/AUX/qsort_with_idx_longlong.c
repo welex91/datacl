@@ -40,6 +40,8 @@ implied.
 #include <string.h>
 #include <stdio.h>
 
+#include "qtypes.h"
+
 /* Byte-wise swap two items of size SIZE. */
 #define SWAP(a, b, size)						\
   aidx = ((char *)a - (char *)pbase) / size;				\
